@@ -5,7 +5,7 @@ import ActivityEntityManager from "./../orm/entitymanagers/activity.entity.manag
 import DbService from "moleculer-db";
 import { TypeOrmDbAdapter } from "moleculer-db-adapter-typeorm";
 import { base } from "../config/db";
-import ActivityEntity from "./../orm/entities/Activity.entity";
+import ActivityEntity from "./../orm/entities/activity.entity";
 
 /**
  * @name - Activity Service
