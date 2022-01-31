@@ -7,7 +7,7 @@ import DoctypeEntityManager from "./../orm/entitymanagers/doctype.entity.manager
 import DoctypeModel from "./../orm/models/doctype.model";
 import DbService from "moleculer-db";
 import { base } from "../config/db";
-import DoctypeEntity from "./../orm/entities/Doctype.entity";
+import DoctypeEntity from "./../orm/entities/doctype.entity";
 import { TypeOrmDbAdapter } from "moleculer-db-adapter-typeorm";
 
 /**
