@@ -1,0 +1,32 @@
+export const TOKEN_TYPE_VERIFICATION = "verification"
+export const TOKEN_TYPE_PASSWORDLESS = "passwordless";
+export const TOKEN_TYPE_PASSWORD_RESET = "password-reset";
+export const TOKEN_TYPE_API_KEY = "api-key";
+export const TOKEN_EXPIRATION = 60 * 60 * 1000 * 24; // 1 hour
+export const USER_SUPERADMIN_GROUP = 1;
+export const USER_ADMIN_GROUP = 2;
+export const REGISTER_PROVIDER_GROUP = 3;
+export const REGISTER_CUSTOMER_GROUP = 4;
+export const ENABLE_ACL_FILTER = true; 
+
+export const TOKEN_TYPES = [
+    TOKEN_TYPE_VERIFICATION,
+    TOKEN_TYPE_PASSWORDLESS,
+    TOKEN_TYPE_PASSWORD_RESET,
+    TOKEN_TYPE_API_KEY
+];
+
+export const REQUEST_STATUS_NEW = 0;
+export const REQUEST_STATUS_ATTRIBUTED = 1;
+export const REQUEST_STATUS_EXECUTED = 2;
+export const REQUEST_STATUS_CLOSED = 3;
+export const REQUEST_STATUS_REJECTED = -1;
+export const REQUEST_STATUS_CANCELLED = -2;
+export const REQUEST_STATUS = [
+    REQUEST_STATUS_NEW,
+    REQUEST_STATUS_ATTRIBUTED,
+    REQUEST_STATUS_EXECUTED,
+    REQUEST_STATUS_CLOSED,
+    REQUEST_STATUS_REJECTED,
+    REQUEST_STATUS_CANCELLED
+]

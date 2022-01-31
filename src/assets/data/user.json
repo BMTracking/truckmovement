@@ -1,0 +1,12 @@
+[
+    {
+        "id":1, 
+        "role_id":1, 
+        "login": "admin",  
+        "password": "3w4aGMra1amgt8ajYkiJmeDy51tsSf6iS1oEztmFJ6b1E0a2Uj9Ji", 
+        "name": "Administrateur", 
+        "email": "mbhd90@gmail.com", 
+        "phone":"00237694190681", 
+        "address":"Douala"
+    }
+]

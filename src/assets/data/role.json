@@ -1,0 +1,6 @@
+[
+    {"id":1, "name": "Super Administrator", "description": "Super Administrator of platform"},
+    {"id":2, "name": "Administrator", "description": "Administrator of platform"},
+    {"id":3, "name": "Providers", "description": "Providers of platform"},
+    {"id":4, "name": "Customers", "description": "Customers of platform"}
+]

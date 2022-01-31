@@ -1,0 +1,898 @@
+[
+    {
+        "actionName": "v1.account.remove",
+        "path": "v1/account/:id/delete",
+        "fullPath": "/api/v1/account/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.update",
+        "path": "v1/account/:id/edit",
+        "fullPath": "/api/v1/account/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.mypassword",
+        "path": "v1/account/:id/mypassword",
+        "fullPath": "/api/v1/account/:id/mypassword",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.password",
+        "path": "v1/account/:id/password",
+        "fullPath": "/api/v1/account/:id/password",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.find",
+        "path": "v1/account/:id/show",
+        "fullPath": "/api/v1/account/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.remove",
+        "path": "v1/activity/:id/delete",
+        "fullPath": "/api/v1/activity/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.update",
+        "path": "v1/activity/:id/edit",
+        "fullPath": "/api/v1/activity/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.find",
+        "path": "v1/activity/:id/show",
+        "fullPath": "/api/v1/activity/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.remove",
+        "path": "v1/area/:id/delete",
+        "fullPath": "/api/v1/area/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.update",
+        "path": "v1/area/:id/edit",
+        "fullPath": "/api/v1/area/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.find",
+        "path": "v1/area/:id/show",
+        "fullPath": "/api/v1/area/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.remove",
+        "path": "v1/city/:id/delete",
+        "fullPath": "/api/v1/city/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.update",
+        "path": "v1/city/:id/edit",
+        "fullPath": "/api/v1/city/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.find",
+        "path": "v1/city/:id/show",
+        "fullPath": "/api/v1/city/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company-activity.remove",
+        "path": "v1/company-activity/:id/delete",
+        "fullPath": "/api/v1/company-activity/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company-activity.revoque",
+        "path": "v1/company-activity/:id/revoque",
+        "fullPath": "/api/v1/company-activity/:id/revoque",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.remove",
+        "path": "v1/company/:id/delete",
+        "fullPath": "/api/v1/company/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.update",
+        "path": "v1/company/:id/edit",
+        "fullPath": "/api/v1/company/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.updateme",
+        "path": "v1/company/:id/edit",
+        "fullPath": "/api/v1/company/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.find",
+        "path": "v1/company/:id/show",
+        "fullPath": "/api/v1/company/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.remove",
+        "path": "v1/country/:id/delete",
+        "fullPath": "/api/v1/country/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.update",
+        "path": "v1/country/:id/edit",
+        "fullPath": "/api/v1/country/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.find",
+        "path": "v1/country/:id/show",
+        "fullPath": "/api/v1/country/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.remove",
+        "path": "v1/doctype/:id/delete",
+        "fullPath": "/api/v1/doctype/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.update",
+        "path": "v1/doctype/:id/edit",
+        "fullPath": "/api/v1/doctype/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.find",
+        "path": "v1/doctype/:id/show",
+        "fullPath": "/api/v1/doctype/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.remove",
+        "path": "v1/permission/:id/delete",
+        "fullPath": "/api/v1/permission/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.update",
+        "path": "v1/permission/:id/edit",
+        "fullPath": "/api/v1/permission/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.find",
+        "path": "v1/permission/:id/show",
+        "fullPath": "/api/v1/permission/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.request.myupdate",
+        "path": "v1/request/:id/myedit",
+        "fullPath": "/api/v1/request/:id/myedit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.remove",
+        "path": "v1/requestdoc/:id/delete",
+        "fullPath": "/api/v1/requestdoc/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.myremove",
+        "path": "v1/requestdoc/:id/mydelete",
+        "fullPath": "/api/v1/requestdoc/:id/mydelete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.myfind",
+        "path": "v1/requestdoc/:id/myshow",
+        "fullPath": "/api/v1/requestdoc/:id/myshow",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.find",
+        "path": "v1/requestdoc/:id/show",
+        "fullPath": "/api/v1/requestdoc/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role-permission.remove",
+        "path": "v1/role-permission/:id/delete",
+        "fullPath": "/api/v1/role-permission/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role-permission.revoque",
+        "path": "v1/role-permission/:id/revoque",
+        "fullPath": "/api/v1/role-permission/:id/revoque",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.remove",
+        "path": "v1/role/:id/delete",
+        "fullPath": "/api/v1/role/:id/delete",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.update",
+        "path": "v1/role/:id/edit",
+        "fullPath": "/api/v1/role/:id/edit",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.find",
+        "path": "v1/role/:id/show",
+        "fullPath": "/api/v1/role/:id/show",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.create",
+        "path": "v1/account/add",
+        "fullPath": "/api/v1/account/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.count",
+        "path": "v1/account/count",
+        "fullPath": "/api/v1/account/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.enable",
+        "path": "v1/account/enable",
+        "fullPath": "/api/v1/account/enable",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.disable",
+        "path": "v1/account/enable",
+        "fullPath": "/api/v1/account/enable",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.forgotPassword",
+        "path": "v1/account/forgot-password",
+        "fullPath": "/api/v1/account/forgot-password",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.resetPassword",
+        "path": "v1/account/forgot-password",
+        "fullPath": "/api/v1/account/forgot-password",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.list",
+        "path": "v1/account/list",
+        "fullPath": "/api/v1/account/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.listandcount",
+        "path": "v1/account/listandcount",
+        "fullPath": "/api/v1/account/listandcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.login",
+        "path": "v1/account/login",
+        "fullPath": "/api/v1/account/login",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.profile",
+        "path": "v1/account/profile",
+        "fullPath": "/api/v1/account/profile",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.register",
+        "path": "v1/account/register",
+        "fullPath": "/api/v1/account/register",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.updateprofile",
+        "path": "v1/account/updateprofile",
+        "fullPath": "/api/v1/account/updateprofile",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.verify",
+        "path": "v1/account/verify",
+        "fullPath": "/api/v1/account/verify",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.create",
+        "path": "v1/activity/add",
+        "fullPath": "/api/v1/activity/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.count",
+        "path": "v1/activity/count",
+        "fullPath": "/api/v1/activity/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.list",
+        "path": "v1/activity/list",
+        "fullPath": "/api/v1/activity/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.listcount",
+        "path": "v1/activity/listcount",
+        "fullPath": "/api/v1/activity/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.api.listAliases",
+        "path": "v1/api/list-aliases",
+        "fullPath": "/api/v1/api/list-aliases",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.create",
+        "path": "v1/area/add",
+        "fullPath": "/api/v1/area/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.count",
+        "path": "v1/area/count",
+        "fullPath": "/api/v1/area/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.list",
+        "path": "v1/area/list",
+        "fullPath": "/api/v1/area/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.listcount",
+        "path": "v1/area/listcount",
+        "fullPath": "/api/v1/area/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.create",
+        "path": "v1/city/add",
+        "fullPath": "/api/v1/city/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.count",
+        "path": "v1/city/count",
+        "fullPath": "/api/v1/city/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.list",
+        "path": "v1/city/list",
+        "fullPath": "/api/v1/city/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.listcount",
+        "path": "v1/city/listcount",
+        "fullPath": "/api/v1/city/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company-activity.create",
+        "path": "v1/company-activity/add",
+        "fullPath": "/api/v1/company-activity/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.create",
+        "path": "v1/company/add",
+        "fullPath": "/api/v1/company/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.count",
+        "path": "v1/company/count",
+        "fullPath": "/api/v1/company/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.list",
+        "path": "v1/company/list",
+        "fullPath": "/api/v1/company/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.listcount",
+        "path": "v1/company/listcount",
+        "fullPath": "/api/v1/company/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.create",
+        "path": "v1/country/add",
+        "fullPath": "/api/v1/country/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.count",
+        "path": "v1/country/count",
+        "fullPath": "/api/v1/country/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.list",
+        "path": "v1/country/list",
+        "fullPath": "/api/v1/country/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.listcount",
+        "path": "v1/country/listcount",
+        "fullPath": "/api/v1/country/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.create",
+        "path": "v1/doctype/add",
+        "fullPath": "/api/v1/doctype/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.count",
+        "path": "v1/doctype/count",
+        "fullPath": "/api/v1/doctype/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.list",
+        "path": "v1/doctype/list",
+        "fullPath": "/api/v1/doctype/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.listcount",
+        "path": "v1/doctype/listcount",
+        "fullPath": "/api/v1/doctype/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.create",
+        "path": "v1/permission/add",
+        "fullPath": "/api/v1/permission/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.count",
+        "path": "v1/permission/count",
+        "fullPath": "/api/v1/permission/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.list",
+        "path": "v1/permission/list",
+        "fullPath": "/api/v1/permission/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.listcount",
+        "path": "v1/permission/listcount",
+        "fullPath": "/api/v1/permission/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.request.create",
+        "path": "v1/request/add",
+        "fullPath": "/api/v1/request/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.create",
+        "path": "v1/requestdoc/add",
+        "fullPath": "/api/v1/requestdoc/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.count",
+        "path": "v1/requestdoc/count",
+        "fullPath": "/api/v1/requestdoc/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.list",
+        "path": "v1/requestdoc/list",
+        "fullPath": "/api/v1/requestdoc/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.listcount",
+        "path": "v1/requestdoc/listcount",
+        "fullPath": "/api/v1/requestdoc/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.mycount",
+        "path": "v1/requestdoc/mycount",
+        "fullPath": "/api/v1/requestdoc/mycount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.mylist",
+        "path": "v1/requestdoc/mylist",
+        "fullPath": "/api/v1/requestdoc/mylist",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.mylistcount",
+        "path": "v1/requestdoc/mylistcount",
+        "fullPath": "/api/v1/requestdoc/mylistcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role-permission.create",
+        "path": "v1/role-permission/add",
+        "fullPath": "/api/v1/role-permission/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.create",
+        "path": "v1/role/add",
+        "fullPath": "/api/v1/role/add",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.count",
+        "path": "v1/role/count",
+        "fullPath": "/api/v1/role/count",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.list",
+        "path": "v1/role/list",
+        "fullPath": "/api/v1/role/list",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.listcount",
+        "path": "v1/role/listcount",
+        "fullPath": "/api/v1/role/listcount",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.upload.commit",
+        "path": "v1/upload/commit",
+        "fullPath": "/api/v1/upload/commit",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.upload.info",
+        "path": "v1/upload/info",
+        "fullPath": "/api/v1/upload/info",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.upload.submit",
+        "path": "v1/upload/submit",
+        "fullPath": "/api/v1/upload/submit",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.account.get",
+        "path": "v1/account/:id",
+        "fullPath": "/api/v1/account/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.activity.get",
+        "path": "v1/activity/:id",
+        "fullPath": "/api/v1/activity/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.area.get",
+        "path": "v1/area/:id",
+        "fullPath": "/api/v1/area/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.city.get",
+        "path": "v1/city/:id",
+        "fullPath": "/api/v1/city/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company-activity.get",
+        "path": "v1/company-activity/:id",
+        "fullPath": "/api/v1/company-activity/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company-activity.update",
+        "path": "v1/company-activity/:id",
+        "fullPath": "/api/v1/company-activity/:id",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company.get",
+        "path": "v1/company/:id",
+        "fullPath": "/api/v1/company/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.country.get",
+        "path": "v1/country/:id",
+        "fullPath": "/api/v1/country/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.doctype.get",
+        "path": "v1/doctype/:id",
+        "fullPath": "/api/v1/doctype/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.permission.get",
+        "path": "v1/permission/:id",
+        "fullPath": "/api/v1/permission/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.request.get",
+        "path": "v1/request/:id",
+        "fullPath": "/api/v1/request/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.request.update",
+        "path": "v1/request/:id",
+        "fullPath": "/api/v1/request/:id",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.request.remove",
+        "path": "v1/request/:id",
+        "fullPath": "/api/v1/request/:id",
+        "methods": "DELETE",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.get",
+        "path": "v1/requestdoc/:id",
+        "fullPath": "/api/v1/requestdoc/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.requestdoc.update",
+        "path": "v1/requestdoc/:id",
+        "fullPath": "/api/v1/requestdoc/:id",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role-permission.get",
+        "path": "v1/role-permission/:id",
+        "fullPath": "/api/v1/role-permission/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role-permission.update",
+        "path": "v1/role-permission/:id",
+        "fullPath": "/api/v1/role-permission/:id",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role.get",
+        "path": "v1/role/:id",
+        "fullPath": "/api/v1/role/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.token.get",
+        "path": "v1/token/:id",
+        "fullPath": "/api/v1/token/:id",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.token.update",
+        "path": "v1/token/:id",
+        "fullPath": "/api/v1/token/:id",
+        "methods": "PUT",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.company-activity.list",
+        "path": "v1/company-activity",
+        "fullPath": "/api/v1/company-activity",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.request.list",
+        "path": "v1/request",
+        "fullPath": "/api/v1/request",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.role-permission.list",
+        "path": "v1/role-permission",
+        "fullPath": "/api/v1/role-permission",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.token.list",
+        "path": "v1/token",
+        "fullPath": "/api/v1/token",
+        "methods": "GET",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.token.create",
+        "path": "v1/token",
+        "fullPath": "/api/v1/token",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.upload.upload",
+        "path": "v1/upload",
+        "fullPath": "/api/v1/upload",
+        "methods": "POST",
+        "routePath": "/api"
+    },
+    {
+        "actionName": "v1.upload.upload",
+        "path": "",
+        "fullPath": "/upload",
+        "methods": "POST",
+        "routePath": "/upload"
+    },
+    {
+        "actionName": "v1.upload.upload",
+        "path": "multi",
+        "fullPath": "/upload/multi",
+        "methods": "POST",
+        "routePath": "/upload"
+    },
+    {
+        "actionName": null,
+        "path": "single",
+        "fullPath": "/upload/single",
+        "methods": "POST",
+        "routePath": "/upload"
+    },
+    {
+        "actionName": "v1.upload.upload",
+        "path": ":id",
+        "fullPath": "/upload/:id",
+        "methods": "PUT",
+        "routePath": "/upload"
+    }
+]

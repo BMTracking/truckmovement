@@ -1,0 +1,20 @@
+export default {
+    "Missing_user_ID":"Missing user ID.",
+    "Account_not_found.":"Account not found.",
+    "Email_or_password_is_invalid":"Email or password is invalid!",
+    "Email_has_already_been_registered":"Email has already been registered.",
+    "Username_has_already_been_registered":"Username has already been registered.",
+    "Invalid_or_expired_verification_token":"Invalid or expired verification token.",
+    "Account_has_already_been_enabled":"Account has already been enabled.",
+    "Account_has_already_heen_disabled":"Account has already been disabled.",
+    "Invalid_or_expired_password_reset_token":"Invalid or expired password reset token.",
+    "ERR_NO_TOKEN":"No Token provided!",
+    "ERR_INVALID_TOKEN":"Invalide Token found!",
+    "ERR_UNABLE_DECODE_PARAM":"Unable to decode parameters!",
+    "ERR_ORIGIN_NOT_FOUND":"Sender not found!",
+    "Unauthorized":"Unauthorized",
+    "TokenExpiredError":"Token has expires!",
+    "Access_forbidden":"The access to this resource is forbidden!",
+    "NIU_has_already_been_registered":"The NIU has already been registered",
+    "Company_details_not_found":"Company details not found!"
+}

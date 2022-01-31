@@ -1,0 +1,12 @@
+[
+    {"id":1, "country_id": 38, "code":"CM-EXT", "name": "Extrême-Nord"},
+    {"id":2, "country_id": 38, "code":"CM-NOD", "name": "Nord"},
+    {"id":3, "country_id": 38, "code":"CM-ADA", "name": "Adamaoua"},
+    {"id":4, "country_id": 38, "code":"CM-EST", "name": "Est"},
+    {"id":5, "country_id": 38, "code":"CM-CEN", "name": "Centre"},
+    {"id":6, "country_id": 38, "code":"CM-SU", "name": "Sud"},
+    {"id":7, "country_id": 38, "code":"CM-LIT", "name": "Littoral"},
+    {"id":8, "country_id": 38, "code":"CM-OUE", "name": "Ouest"},
+    {"id":9, "country_id": 38, "code":"CM-NOU", "name": "Nord-Ouest"},
+    {"id":10, "country_id": 38, "code":"CM-SOU", "name": "Sud-Ouest"}
+]

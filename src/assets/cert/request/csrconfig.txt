@@ -1,0 +1,20 @@
+[ req ]
+default_md = sha256
+prompt = no
+req_extensions = req_ext
+distinguished_name = req_distinguished_name
+[ req_distinguished_name ]
+commonName = bm-tracking.com
+countryName = CM
+stateOrProvinceName = Littoral
+localityName = Douala
+organizationName = BM TRACKING
+organizationalUnitName = Information Technology
+emailAddress = mbhd90@gmail.com
+[ req_ext ]
+keyUsage=critical,digitalSignature,keyEncipherment
+extendedKeyUsage=critical,serverAuth,clientAuth
+basicConstraints=critical,CA:true,pathlen:10
+subjectAltName = @alt_names
+[ alt_names ]
+IP.0 = 127.0.0.1
